@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Historia</title>
+</head>
+<body>
+    
+    <div class="container-history">
+        <h1 class="title-page history">Historia</h2>
+        <h2 class="title-secundary"> El fundador</h2>
+        <p class="content-paragraph">
+            
+         En 1955, en su casa, con muy pocos equipos, pero con todo el apoyo de su madre, don ricardo Amador Cespedes hizo las primeras pruebas para fabricar jabon en barra, luego de haber estudiado en la escuela nacional y trabajado con empresarios españoles que le enseñaron e impulsaron a ser una persona lider e inovadora. <br>
+         Para el año 1966, ya Don Ricardo había introducido el jabón La Familia al mercado costarricense. Este producto llegó a ocupar un puesto de gran importancia en el mercado nacional, conformado en esa epoca por unas 25 industrias.
+
+        </p>
+        <img class="img-founder" src="irex/FMVCGH-1.png" alt="Historia irex">
+    <div class="carousel-history">
+        <h1 class="title-carousel">Historia</h2>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="image-carousel">
+                    <img class="caraousel-image" src="irex/image0.png" >
+                  
+                  </div>
+                  <div class="text">
+                      <h3>1995</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ratione, culpa tenetur, nisi laboriosam reiciendis temporibus omnis magni perspiciatis commodi sunt excepturi vel in quaerat incidunt quam delectus suscipit obcaecati.</p>
+                  </div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="image-carousel">
+                  <img class="caraousel-image" src="irex/image1.png">
+                  </div>
+                  <div class="text">
+                      
+                    <h3>1965</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ratione, culpa tenetur, nisi laboriosam reiciendis temporibus omnis magni perspiciatis commodi sunt excepturi vel in quaerat incidunt quam delectus suscipit obcaecati.</p>
+                  </div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="image-carousel">
+                  <img class="caraousel-image" src="irex/image2.png" >
+                  </div>
+                  <div class="text">
+                      
+                    <h3>1966</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ratione, culpa tenetur, nisi laboriosam reiciendis temporibus omnis magni perspiciatis commodi sunt excepturi vel in quaerat incidunt quam delectus suscipit obcaecati.</p>
+                    </div>
+
+                    
+              
+               
+                    
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#9665;</a>
+                <a class="next" onclick="plusSlides(1)">&#9655;</a>
+                
+                </div>
+                <br>
+                
+               
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+</body>
+</html>
