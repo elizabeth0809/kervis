@@ -5,48 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-   
+   <link rel="stylesheet" href="https://unpkg.com/@mui/material@latest/umd/material-ui.development.js">
     <title>Cotizacion</title>
 </head>
 <body>
     <div class="data">
-    <h1 class="title-page">Cotizacion</h1>
-        <h2 class="title-secundary">Detalle de productos</h2>
-        <h3> producto</h3>
-        <h3>Tamaño version</h3>
-        <h3>cantidad</h3>
+    <h1 class="title-page quote">Cotizacion</h1>
+        <h2 class="title-secundary secundary">Detalle de productos</h2>
+       <div class="contenido">
+       
+        <h3 class="details-product p1"> producto</h3>
+        <h3 class="details-product p2">Tamaño version</h3>
+        <h3 class="details-product p3">cantidad</h3>
+        
+        
         <div class="div-content">
-            <img src="irex/suavizantepng" alt="">
+            <img class="img-product" src="irex/suavizante.png" alt="">
             <h3 class="title-product">Detergente en polvo</h3>
-            <span class="content-product">Botella 3789 ml</span>
-            <div>1</div>
-            <span>icono</span>
+            <p class="content-product">Botella 3789 ml</p>
+            <div class="num"><span>-</span> 1 <span>+</span> </div>
+            <span class="icon">	&#128465;</span>
         </div>
-        <h2 class="title-secundary">Datos</h2>
+      </div>
+        <div class="datas">
+        <h2 class="title-secundary ">Datos</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi debitis odio delectus labore cum omnis dignissimos velit, numquam veniam molestiae, sunt repudiandae deserunt placeat, eum maiores? Blanditiis at molestiae recusandae.</p>
-    <h3 class="title-data">Pais</h3>
-    <select name="select">
+    
+        <h3 class="title-data">Pais</h3>
+        <select name="select">
         <option value="value1">Costa Rica</option>
-        <option value="value1">Nicaragua</option>        
-        <option value="value1">Peru</option>
-        <option value="value1">Republica Dominicana</option>
+        <option value="value2">Nicaragua</option>        
+        <option value="value3">Peru</option>
+        <option value="value4">Republica Dominicana</option>
     </select>
     <h3 class="title-data">¿Requiere que los productos sean marca privada?</h3>
-    <input type="checkbox" name="si"> si
-
-    <input type="checkbox" name="no"> no
-    <form action="/my-handling-form-page" method="post">
+    <label class="radio"><input type="radio" name="si"> <span></span>Si  </label>
+    <label class="radio"><input  type="radio" name="no"> <span></span>No</label>
+        </div>
+    <form class="comments" action="/my-handling-form-page" method="post">
         <ul>
          <li>
            <label class="title-data" for="mail">Correo electrónico:</label>
-           <input type="email" id="mail" name="user_mail">
+           <div class="inputStyle"><input type="email" id="mail" name="user_mail" placeholder="ejemplo@gmail.com"></div>
          </li>
          <li>
-           <label class="title-data" for="msg">Mensaje:</label>
-           <textarea id="msg" name="user_message"></textarea>
-         </li>
+           <label class="title-data" for="msg">Comentarios:</label>
+           <div class="textareaStyle"><textarea id="msg" name="user_message"></textarea></div>
+          
+          </li>
+          <a class="send-comments" a href="#">Enviar cotizacion</a>
         </ul>
+        
        </form>
     </div>
+    <script
+      src="https://unpkg.com/@mui/material@latest/umd/material-ui.development.js"
+      crossorigin="anonymous"
+    ></script>
 </body>
 </html>
