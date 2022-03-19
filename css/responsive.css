@@ -1,0 +1,176 @@
+/*-----------Responsive------------*/
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .directory a{
+        font-size: 70%;
+        text-align: center;
+    }
+    section p{
+        font-size: 100% !important;
+       text-align: justify;
+       overflow: hidden !important;
+    }
+    .contact h1 {
+        padding: 0.2em;
+        font-size: 40px;
+    }
+  .prev, .next,.text {font-size: 11px}
+}
+@media only screen and (max-width: 768px) {
+    .data{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        width: min-content;
+       
+    }
+    .quote, .secundary, .datas, .comments{
+        min-width: 90vw;
+		display: block;
+	margin: 10px 0;
+    }
+    .contenido{
+        overflow: auto;
+    }
+    .data-produt, .div-content{
+      
+        min-width: 90vw;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .textareaStyle, .inputStyle{
+        width: 95%;
+        
+    }
+    .datas select{
+        min-width: 90vw;
+    }
+    .num{
+        margin: 0;
+      
+    }
+ 
+ .div-content .icon{
+     font-size: 3em;
+    
+ }
+ .num{
+     width: 6em;
+ }
+ .form-contact, .send-contact{
+     display: block;
+ }
+ .contact form{
+    
+    min-width: 100vw;
+ }
+ .directory{
+     width: 100%;
+   
+ }
+}
+@media only screen and (max-width: 500px) {
+    /*/*Product card irex*/
+    .textimg h3{
+        padding: 10px 5px 0px 58px;
+    }
+    .more a{
+    padding: 0.5em 0.5em;
+    }
+    .product-card{
+        margin: 0px;
+        margin-top: 10px;
+    }
+    /*container history*/
+    .container-history{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.2fr repeat(2, 0.5fr) 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    
+    }
+    section p{
+        width: 90%;
+        margin-top: 0;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+    .form-textarea textarea{
+        width: 100%;
+    }
+    .contact .title-secundary{
+        padding: 0;
+    }
+    .form-contact{
+        padding: 1em;
+    }
+    .contact h1{
+        padding-left: 0.2em;
+    }
+    
+    .form-contact input{
+        width: 100%;
+        padding: 0;
+    }
+    .form-contact select{
+        padding: 0;
+        margin: 0 auto;
+    width: 88% !important;
+    }
+  
+    .container-text{
+        grid-template-rows: 0.5fr 0.5fr 0.2fr;
+    }
+    .container-text p {
+        grid-area: 2 / 1 / 3 / 3;
+    }
+    .history{
+        padding: 0 0 0 1em;
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .title-secundary{
+        padding: 1em;
+        grid-area: 2 / 1 / 3 / 3;
+    }
+    .content-paragraph{
+        grid-area: 3 / 1 / 4 / 3;
+        text-align: justify;
+        padding: 1em;
+        width: 100%;
+    }
+    .img-founder{
+        grid-area: 4 / 1 / 5 / 2;
+        margin: 0 auto;
+        width: 20em;
+        height: auto;
+    }
+    .carousel-history{
+        grid-area: 5 / 1 / 6 / 2;
+    }
+    .title-carousel{
+        padding: 1em;
+    }
+    .carousel-history{
+        padding: 1em;
+        width: 100%;
+    }
+    .container-text img{
+        width: 100%;
+    height: auto;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .prev,.next{
+        font-size: 30px;
+    }
+    .carousel-history{
+        padding: 0;
+        width: 100%;
+    }
+    .title-carousel{
+        padding: 0;
+    } 
+    
+  }

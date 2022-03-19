@@ -1,0 +1,66 @@
+/*Product card irex*/
+.boxProduct{
+    display: flex;
+}
+.product-card{
+   margin-top: 10px;
+   margin-left: 10px;
+    background-color: #c2d6ed;
+    width: 295px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    border-radius: 25px;
+}
+.svgIcon{
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    
+}
+.cls-1{
+    d:path(
+    "M0,0V70.15C16.46,62.23,62.8,45.71,147.4,56.9,243.59,69.71,282,76.43,324,69.48V0Z")
+}
+
+.product-card:hover~svg .cls-1{
+d:path("M324,0V70.15c-16.46-7.92-62.8-24.44-147.4-13.25C80.41,69.71,42,76.43,0,69.48V0Z")
+}
+.textimg{
+    color: var(--White);
+    position: absolute;
+    display: flex;  
+
+    }
+.textimg h3{
+    justify-content: center;
+    align-items: center;
+    padding: 13px 85px;
+}
+.product-card .img-produ{
+    margin: 0 auto;
+    height: 222px;
+}
+.more{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.more a{
+    color: var(--BlueSecundary);
+    background-color: var(--White);
+    text-decoration: none;
+    
+    padding: 0.5em 1.8em;
+    border-radius: 50px;
+}
+.more span{
+    background-color: var(--White);
+    padding: 0.5em;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+}

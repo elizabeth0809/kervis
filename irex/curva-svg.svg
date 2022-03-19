@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 324 78" width="324" height="78">
+	<title>curva-svg</title>
+	<defs>
+		<image  width="324" height="100" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAABkCAMAAADJ77l2AAAAAXNSR0IB2cksfwAAAgRQTFRFG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgAAAAG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgG6fgSoCy/gAAAKx0Uk5T//Hg0L+vn45/e3Zxa2ZhXFdSTUhAQ09ZY213gYuVqbfD1OX26dG5oopyW0EyIhEAGSw/ZZzJ3u7vy6qJakkwGAocLlqEp8Xd/OpsSysXOYKw67wNJ5HixH1FDh5kh7PW9KVTIQibwq5OSnSjyub6+3MWN7bXtUcpeOzyRM/tLSjN/Srw9Y8TBiOg3/P+Prg8Cca+NCZGaJnAzoDSrXkdOIOx1eGIPTtiaW9wEuha2ssAAAJdSURBVHic7db7V8txHMfxVau5p23ZSrqtqGlotBIR3WhtJBFiXSxyK0LKJTSkyD33+6XwT3KOczrjLFq9v/uU83z8/P1+z/f1PN/v+X51OgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBoqJj9LFxhjlz581fsHBR/OIEo8n8S+ISizUpeWnKsrjUtPSMTJvqO51hsrKXr8jJta/Mc6xaHYY1+c6Etck562ILXIWqJyhTtL54w8aSTZvDCTeh0i1bzWXlFZVVRdtU74qM7XpDtbumVCReCB6vfcfO7P/34azdZbB667Sq94fdJUn1+j2qJ4uy7W3Ytz9C+X5zwNx48JCvSfX+aYtubmlV0S/Y4XxTtb/NNTs/6oVHjkbq/Z2cmvZjx0+cPKW6y6R1FHQ6VDebyOkzlpSus1GqE/2D7dx51aEmo9t9oTimR3WskHq7ElXXCY/jYm7FpcuqswUpSr2iuslU9Rk7m6/Wqg6ou5Z2XXWJ6XMkNpbHZvQrShi4cVN1AEG3Bpz25Nvpg0N3IpjQZVE9Wyutd631w74e7X+M2u6pnqq9+/mmhuYH0U0aJXz4SPXAiHr8ZOTpM5dgzKHnuqpZ8U+oAU+ft93+wj/8MjMw1Xy9vlevnT8vpVO9ZUZ489Y48s7/vvLDx6x+W8ffy3UEegYLUj/Ffx4YP52IodR5ur+4y0bHvn4bNzZqb3HnOb6HOpyIAogogIgCiCiAiAKIKICIAogogIgCiCiAiAKIKICIAogogIgCiCiAiAKIKICIAogogIgCiCiAiAKIKICIAogogIgCfgACPvnU3woICQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: none } 
+	</style>
+	<use id="img1" href="#img1" x="0" y="0"/>
+	<path id="Forma 1" class="s0" d="m-3-30c0 0 188.4 6.4 322-2c133.6-8.4 71.9 85.9 22 98c-49.9 12.1-84.7 5.4-193.6-9.1c-108.9-14.4-154.4 17.1-154.4 17.1c-150.4-93.4 4-104 4-104z"/>
+</svg>
