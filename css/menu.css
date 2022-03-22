@@ -1,0 +1,50 @@
+.nav{
+    position: fixed;
+    width: 100vw;
+  
+}
+.nav li a{
+    color: var(  --FontPrimary);
+    text-decoration: none;
+    
+}
+.nav__list{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 2rem;
+    margin: 0 2rem;
+}
+.nav__listitem{
+    list-style: none;
+    
+    position: relative;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+}
+.nav__listitemdrop{
+    position: absolute;
+    top: 4rem;
+    left: -1rem;
+    box-shadow: 0 0 5px var(--Silver);
+    background-color: var(--Black);
+    border-radius: 10px;
+    width: 12rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+.nav__listitem:hover ul, .nav__listitem:focus ul{
+    opacity: 1;
+    visibility: visible;
+}
+li{
+    list-style: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    transition: background-color 200ms ease-in-out;
+}
