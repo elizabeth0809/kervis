@@ -16,6 +16,16 @@
     }
   .prev, .next,.text {font-size: 11px}
 }
+@media (min-width: 769px){
+    .modalProduct{
+        border-radius: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          overflow: hidden;
+      }
+}
 @media only screen and (max-width: 768px) {
     .data{
         display: block;
@@ -68,6 +78,31 @@
  .directory{
      width: 100%;
    
+ }
+ .modalProduct{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+    
+  }
+ .irexTop img{
+    margin: 0 auto;
+     height: auto;
+     padding: 0;
+   
+    width: 135px;
+ }
+ .irexTop p{
+     text-align: justify;
+     padding: 1em;
+ }
+ .irexTop, .blueBottom{
+     display: flex;
+     flex-direction: column;
+ }
+ .blueBottom{
+     align-items: center;
+     justify-content: center;
  }
 }
 @media only screen and (max-width: 500px) {
