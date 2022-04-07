@@ -20,6 +20,17 @@
     .modalProduct{
         border-radius: 20px;
           position: absolute;
+       
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          overflow: hidden;
+      }
+      .modalProduct2{
+        border-radius: 20px;
+          position: absolute;
+          width: 434px;
+          height: auto;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
@@ -27,6 +38,17 @@
       }
 }
 @media only screen and (max-width: 768px) {
+    .modalProduct2{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .buttons div{
+        margin: 10px;
+    }
     .data{
         display: block;
         width: 100%;
